@@ -18,6 +18,7 @@ class XylophoneApp extends StatelessWidget {
           child: Center(
             //adding all the buttons with onPressed playing each note
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Expanded(
                   child: FlatButton(
@@ -25,7 +26,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(1);
                     },
-                    child: Container(),
                   ),
                 ),
                 Expanded(
@@ -34,7 +34,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(2);
                     },
-                    child: Container(),
                   ),
                 ),
                 Expanded(
@@ -43,7 +42,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(3);
                     },
-                    child: Container(),
                   ),
                 ),
                 Expanded(
@@ -52,7 +50,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(4);
                     },
-                    child: Container(),
                   ),
                 ),
                 Expanded(
@@ -61,7 +58,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(5);
                     },
-                    child: Container(),
                   ),
                 ),
                 Expanded(
@@ -70,7 +66,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(6);
                     },
-                    child: Container(),
                   ),
                 ),
                 Expanded(
@@ -79,7 +74,6 @@ class XylophoneApp extends StatelessWidget {
                     onPressed: () {
                       playNote(7);
                     },
-                    child: Container(),
                   ),
                 ),
               ],
